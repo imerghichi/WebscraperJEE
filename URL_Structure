@@ -1,0 +1,9 @@
+import requests
+print("a")
+URL = "geekforgeeks.org"
+print("aa")
+proxies = { 'http': 'web-proxy.xxxxxx.xx.com:8080','https': 'web-proxy.xxxxxx.xx.com:8080'}
+print("ab")
+response = requests.get(URL)
+print("aaa")
+print(response.text[ :500])
