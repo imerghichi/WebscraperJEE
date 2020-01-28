@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 BASE_URL = "http://www.geeksforgeeks.org/"
-driver = webdriver.Firefox("/home/taaha/Documents/driver/geckodriver")
+driver = webdriver.Firefox("/driver/geckodriver")
 titles =[] #where to store titles of articles
 links = [] #where to store contents of the articles
 descriptions = [] #where to store descriptions of the articles
